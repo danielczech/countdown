@@ -1,0 +1,27 @@
+:root{
+  --progress: 377;
+}
+
+svg {
+  transform: rotate(-90deg);
+  stroke-dasharray: 377;
+  stroke-dashoffset: 377;
+  animation: offsettozero 1s linear forwards;
+}
+
+@-webkit-keyframes offsettozero {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: var(--progress);
+  }
+}
+
+.container{
+  background-image: url('../img/marshmallow.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  border-radius: 50%;
+}
