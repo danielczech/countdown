@@ -18,6 +18,15 @@ svg {
   }
 }
 
+@keyframes offsettozero {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: var(--progress);
+  }
+}
+
 .container{
   background-image: url('../img/marshmallow.jpg');
   background-repeat: no-repeat;
