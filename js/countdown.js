@@ -1,5 +1,5 @@
 var START_TIME = 1676617200;
-var END_TIME = 1677225600;
+var END_TIME = 1677160200;
 var CIRC = 377;
 
 function init(){
